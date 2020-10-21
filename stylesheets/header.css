@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  padding-top: 34px;
+}
+.header a {
+  margin: auto;
+  text-decoration: none;
+  color: #1612E3;
+}
+.header a:first-child {
+  margin-left: 67px;
+}
+.header a:last-child {
+  margin-right: 67px;
+}
+a {
+  color: inherit;
+}
