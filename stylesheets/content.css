@@ -1,0 +1,118 @@
+body {
+  background-color: grey;
+  margin: 0;
+  font-family: montserrat;
+}
+* {
+  box-sizing: border-box;
+}
+.main {
+  background-color: #E2E2DF;
+  width: 1280px;
+  height: 8177px;
+  margin: auto;
+}
+.title {
+  height: 187px;
+  font-weight: 900;
+  font-size: 154px;
+  font-style: normal;
+  color: black;
+  margin: 0 auto;
+  display: block;
+  margin-top: 34px;
+  text-align: center;
+}
+.pic img {
+  display: block;
+  margin: auto;
+}
+.pic.table {
+  margin-top: -60px;
+}
+.first {
+  background-image: url('images/телескоп.svg');
+  height: 590px;
+  padding-left: 549px;
+  margin-bottom: 80px;
+}
+.pic2 {
+  margin-top: 50px;
+  margin-bottom: 74px;
+}
+p, .list {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 31px;
+  line-height: 38px;
+}
+.first p {
+  margin-bottom: 108px;
+  margin-top: 0px;
+  margin-right: 61px;
+}
+.montserrat {
+  font-weight: 900;
+  font-size: 35px;
+  line-height: 43px;
+  color: #1612E3;
+}
+.pic3 {
+  margin-left: 0;
+}
+.second {
+  background-image: url('images/начертания.svg');
+  height: 678px;
+  background-repeat: no-repeat;
+  margin-bottom: 118px;
+}
+.third {
+  background-image: url('images/история.png');
+  height: 1448px;
+  padding-left: 290px;
+  margin-bottom: 55px;
+  background-repeat: no-repeat;
+}
+.third p:first-child {
+  padding-top: 638px;
+  padding-bottom: 301px;
+  padding-right: 127px;
+}
+.third p:last-child {
+padding-right: 213px;
+}
+.list {
+  display: flex;
+  margin-top: 90px;
+}
+.list span {
+  flex: auto;
+  text-align: center;
+}
+.list span::before {
+  content: url('images/круг.png');
+  margin-right: 10px;
+}
+.list span:first-child {
+  margin-left: -15px;
+}
+.list span:last-child {
+  margin-right: -15px;
+}
+.pic4 {
+  margin-top: 109px;
+}
+.pic5 {
+  margin-top: 21px;
+}
+.fourth {
+  padding-left: 290px;
+  padding-top: 75px;
+}
+.fourth p:first-child {
+  margin-right: 256px;
+  margin-bottom: 113px;
+}
+.fourth p:last-child {
+  margin-right: 236px;
+}
