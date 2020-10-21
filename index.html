@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <title>MONTSERRAT</title>
+    <script src="javascripts/jquery-3.5.1.js" charset="utf-8"></script>
+    <script type="text/javascript">
+    $(function() {
+      $('.header a').each(function() {
+        $(this).on('click', function(e) {
+          e.preventDefault();
+          var scrollTo = $(this).attr('href');
+          var whitespace = scrollTo == '#s1' ? 70 : 30;
+          $('html,body').animate({
+            scrollTop: $(scrollTo).offset().top - whitespace
+          }, 1000);
+        });
+      });
+    });
+    </script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <a href="#s1">структура</a>
+        <a href="#s2">история</a>
+        <a href="#s3">применение</a>
+        <a href="#s4">обновление</a>
+      </div>
+      <div class="title">
+        MONTSERRAT
+      </div>
+      <div class="pic">
+        <img src="images/1.svg" alt="">
+      </div>
+      <div class="pic table">
+        <img src="images/таблица.svg" alt="">
+      </div>
+        <div id="s1" class="pic pic2">
+        <img src="images/2.svg" alt="">
+      </div>
+      <div class="first">
+        <p><span class="montserrat">MONTSERRAT</span> — гротескный шрифт с примерно одинаковым соотношением ширины и высоты символов.</p>
+        <p>Шрифт имеет все варианты начертаний&nbsp;от Thin до&nbsp;Black,<br>а также соответствующие курсивы.</p>
+      </div>
+      <div class="second"></div>
+      <div  id="s2" class="third">
+        <p>Шрифт был создан Хульетой Улановски, дизайнером из&nbsp;Аргентины, одной из&nbsp;основательниц студии ZkySky.</p>
+        <p>Хульета вдохновлялась плакатами и&nbsp;вывесками старого района Монсеррат в&nbsp;Буэнос Айресе, поэтому шрифт отражает эстетику традиционной типографики Аргентины начала XX века.</p>
+      </div>
+      <div id="s3" class="pic pic3">
+        <img src="images/3.svg" alt="">
+      </div>
+      <div class="list">
+        <span>Веб-типографика</span>
+        <span>Заголовки</span>
+        <span>Основной текст</span>
+      </div>
+      <div class="pic pic4">
+        <img src="images/атом.svg" alt="">
+      </div>
+      <div class="pic pic5">
+        <img src="images/обновление.svg" alt="">
+      </div>
+      <div id="s4" class="fourth">
+        <p>В 2017 году гарнитура была перерисована целой командой шрифтовиков под руководством её автора. Все начертания улучшили и сделали более гармоничными. </p>
+        <p>Также гарнитура стала поддерживать кириллицу. Разработкой руководил Хуан Пабло дель Перал, который консультировался с русскими шрифтовиками.</p>
+      </div>
+      <div class="pic pic6">
+        <div class="pic pic5">
+          <img src="images/конец.svg" alt="">
+        </div>
+      </div>
+      <div class="footer">
+        by Dasha Gadalova
+      </div>
+    </div>
+  </body>
+</html>
